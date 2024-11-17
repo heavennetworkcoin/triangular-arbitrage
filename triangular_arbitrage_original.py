@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 from binance.client import Client
 import time
 
