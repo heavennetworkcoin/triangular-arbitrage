@@ -4,8 +4,8 @@ from binance.client import Client
 import time
 
 # Initialize the Binance Testnet client
-api_key = "UBKIYGJhEKWB5I4gJGqknEyOh9V3XKjp0mxd0RVxJlQU60k8I9GjkuZeJJxj4HO7"
-api_secret = "x4LeXf1mfB34zlXYWyzPSO9DiRN1H0qp0l5DzXzG109ykdGaQXH3g5ArKfHwvsGC"
+api_key = "your_testnet_api_key"
+api_secret = "your_testnet_api_secret"
 
 client = Client(api_key, api_secret)
 client.API_URL = 'https://testnet.binance.vision/api'
